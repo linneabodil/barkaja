@@ -1,13 +1,18 @@
-@import 'header.scss';
-@import 'footer.scss';
+@import 'components/footer.scss';
+@import 'components/header.scss';
+@import 'components/hero.scss';
+@import 'components/maps.scss';
+@import 'components/menu.scss';
+
 
 body {
     margin: 0;
 }
 
-.fullpage {
+.fullwidth {
     width: 100vw;
-    min-height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 
 ul {
