@@ -1,4 +1,19 @@
+@import 'header.scss';
+@import 'footer.scss';
+
+body {
+    margin: 0;
+}
+
 .fullpage {
     width: 100vw;
     min-height: 100vh;
+}
+
+ul {
+    list-style: none;
+}
+
+h1, h2, h3, p {
+    margin: 0;
 }
