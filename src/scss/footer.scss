@@ -1,0 +1,13 @@
+.footer {
+    background: rgb(146, 83, 58);
+    width: 100vw;
+    margin-top: 400px;
+    
+    &__list {
+        display: flex;
+
+        &--item {
+            padding: 2rem;
+        }
+    }
+}
