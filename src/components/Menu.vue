@@ -1,5 +1,5 @@
 <template>
-<div class="menu">
+<div class="menu centered">
 
     <ul class="menu__food">
         <h2>Matmeny</h2>

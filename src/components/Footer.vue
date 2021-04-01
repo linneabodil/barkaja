@@ -1,6 +1,6 @@
 <template>
   <div class="footer fullwidth">
-      <ul class="footer__list">
+      <ul class="footer__list centered">
           <li class="footer__list--item">
               <h3>Adress:</h3>
               <p>Södermalm</p>
