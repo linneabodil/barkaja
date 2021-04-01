@@ -7,16 +7,20 @@
 
 body {
     margin: 0;
+    overflow-x: hidden;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .fullwidth {
     width: 100vw;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 ul {
     list-style: none;
+    box-sizing: border-box;
 }
 
 h1, h2, h3, p {

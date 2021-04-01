@@ -14,11 +14,13 @@ export default new Vuex.Store({
     drinks: [
       {'name': 'Tail of the Whale',
       'type': 'Veteöl',
-      'price': 79
+      'price': 79,
+      'description': 'Öl som smakar väldigt gott'
       },
       {'name': 'Brooklyn Defender',
       'type': 'IPA',
-      'price': 89
+      'price': 89,
+      'description': 'Öl som smakar gott'
       }
     ]
   },
