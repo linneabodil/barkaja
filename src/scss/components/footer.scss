@@ -1,10 +1,10 @@
 .footer {
     background: rgb(146, 83, 58);
     width: 100vw;
-    margin-top: 400px;
     
     &__list {
         display: flex;
+        margin: 0;
 
         &--item {
             padding: 2rem;

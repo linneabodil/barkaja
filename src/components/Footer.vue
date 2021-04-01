@@ -1,5 +1,5 @@
 <template>
-  <div class="footer">
+  <div class="footer fullwidth">
       <ul class="footer__list">
           <li class="footer__list--item">
               <h3>Adress:</h3>

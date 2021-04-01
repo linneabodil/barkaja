@@ -1,0 +1,66 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+
+    /* 
+        Styling for foodmenu
+    */
+    &__food {
+        border: 2px dashed Black;
+        padding: 2rem;
+        margin: 2rem;
+
+        .menu__item {
+            margin: 1rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            vertical-align: bottom;
+    
+            &--name {
+                flex: 1 0 auto;
+                font-weight: bold;
+                margin-right: 1rem;
+            }
+            &--price {
+                flex: 0 1 auto;
+            }
+            &--description {
+                flex: 0 1 100%;
+                border-top: 1px dotted Black;
+            }
+        }
+    }
+
+
+    /* 
+        Styling for drinksmenu
+    */
+    &__drinks {
+        border: 2px dashed Black;
+        padding: 2rem;
+        margin: 2rem;
+
+        .menu__item {
+            margin: 1rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            vertical-align: bottom;
+    
+            &--name {
+                flex: 0 1 auto;
+                font-weight: bold;
+                margin-right: 1rem;
+            }
+            &--type {
+                flex: 1 0 auto;
+            }
+            &--price {
+                flex: 0 1 auto;
+            }
+            &--description {
+                flex: 0 1 100%;
+                border-top: 1px dotted black;
+            }
+        }
+    }
+}
