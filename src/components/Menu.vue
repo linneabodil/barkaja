@@ -6,7 +6,7 @@
         <li v-for="food in foods" :key="food.name" class="menu__item">
             <div class="menu__item--name">{{ food.name }}</div>
             <div class="menu__item--price">{{ food.price }}</div>
-            <p class="menu__item--description">{{ food.ingredients }}</p>
+            <p class="menu__item--description">{{ food.description }}</p>
         </li>
     </ul>
 
@@ -30,7 +30,7 @@ export default {
             drinks: []
         }
     },
-    mounted() {
+    beforeMount() {
         this.foods = this.$store.getters.getFoods
         this.drinks = this.$store.getters.getDrinks
     }
