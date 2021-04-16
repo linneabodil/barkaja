@@ -24,6 +24,9 @@ export default {
     Menu,
     Maps,
     Footer
+  },
+  beforeMount() {
+    this.$store.dispatch('getMenu');
   }
 }
 
