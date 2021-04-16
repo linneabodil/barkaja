@@ -30,9 +30,19 @@ export default {
             drinks: []
         }
     },
-    beforeMount() {
-        this.foods = this.$store.getters.getFoods
-        this.drinks = this.$store.getters.getDrinks
+    methods: {
+        loadMenu() {
+            this.foods = this.$store.getters.getFoods
+            this.drinks = this.$store.getters.getDrinks
+        }
+    },
+    mounted() {
+        this.loadMenu()
+    },
+    updated() {
+        window.addEventListener('load', () => {
+            this.loadMenu()
+        })
     }
 }
 </script>
