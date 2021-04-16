@@ -1,6 +1,6 @@
 <template>
   <div class="header fullwidth">
-      <img src="@/assets/logo.png" alt="Kaja Bar och Restaurang logotyp" style="height: 100px">
+      <img src="../assets/KAJA.svg" alt="Kaja Bar och Restaurang logotyp" style="height: 200px">
   </div>
 </template>
 
