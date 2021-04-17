@@ -1,4 +1,5 @@
-$primary-color: #6c7082;
+$primary-color: #DFA484;
+$secondary-color: #FFF7F1;
 
 $medium-size: 768px;
 
@@ -9,7 +10,7 @@ $medium-size: 768px;
 @import 'components/menu.scss';
 
 body {
-    background: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background: $secondary-color;
     margin: 0;
     overflow-x: hidden;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -17,13 +18,14 @@ body {
 
 .fullwidth {
     width: 100vw;
+    min-width: 320px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .centered {
-    max-width: 1020px;
+    max-width: 980px;
     display: flex;
     justify-content: center;
     margin: auto;
