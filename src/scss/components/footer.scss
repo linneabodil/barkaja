@@ -7,7 +7,11 @@
         margin: 0;
 
         &--item {
-            padding: 2rem;
+            padding: .5rem;
+
+            @media (min-width: $medium-size) {
+                padding: 1rem;
+            }
         }
     }
 }

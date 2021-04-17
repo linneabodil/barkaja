@@ -1,6 +1,6 @@
 <template>
   <div class="header fullwidth">
-      <img src="../assets/KAJA.svg" alt="Kaja Bar och Restaurang logotyp" style="height: 200px">
+      <img src="../assets/KAJA.svg" alt="Kaja Bar och Restaurang logotyp">
   </div>
 </template>
 
@@ -10,3 +10,4 @@ export default {
 }
 </script>
 
+ 
