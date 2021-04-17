@@ -1,10 +1,23 @@
 .header {
-    background: $primary-color;
+    z-index: 999;
     position: fixed;
     top: 0;
+    
+    &__circle {
+        background: $primary-color;
+        position: relative;
+        height: 320px;
+        width: 320px;
+        border-radius: 999px;
+        top: -150px;
+        left: -120px;
+    }
 
     img {
-        height: 150px;
-        margin: 1rem;
+        position: absolute;
+        right: 75px;
+        bottom: 25px;
+        height: 125px;
+        margin: 1rem 1rem .4rem;
     }
 }
