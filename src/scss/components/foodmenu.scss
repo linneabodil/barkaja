@@ -1,0 +1,59 @@
+.foodmenu {
+    background: #F1D7C4;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+
+    @media (min-width: $medium-size) {
+        flex-direction: column;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    /*
+        List container
+    */
+
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 5rem;
+        padding: 2rem;
+        margin: 2rem;
+
+        @media (min-width: $medium-size) {
+            grid-template-columns: repeat(2, 1fr);
+        }
+
+        /*
+            Single items
+        */
+
+        .menu__item {
+            margin: 1rem 0;
+            display: inline-flex;
+            flex-wrap: wrap;
+            vertical-align: bottom;
+            width: 100%;
+    
+            &--name {
+                flex: 1 0 auto;
+                font-weight: bold;
+                font-size: 1.2rem;
+                margin-right: 1rem;
+            }
+            &--price {
+                flex: 0 1 auto;
+            }
+            &--description {
+                flex: 0 1 100%;
+                font-style: italic;
+                border-top: .1rem solid Black;
+                margin-top: .2rem;
+            }
+        }
+    }
+}
