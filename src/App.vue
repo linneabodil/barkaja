@@ -2,7 +2,8 @@
   <div id="app">
     <Header />
     <Hero />
-    <Menu />
+    <Foodmenu />
+    <Drinkmenu />
     <Maps />
     <Footer />
   </div>
@@ -12,7 +13,8 @@
 
 import Header from '@/components/Header.vue'
 import Hero from '@/components/Hero.vue'
-import Menu from '@/components/Menu.vue'
+import Foodmenu from '@/components/Foodmenu.vue'
+import Drinkmenu from '@/components/Drinkmenu.vue'
 import Maps from '@/components/Maps.vue'
 import Footer from '@/components/Footer.vue'
 
@@ -21,7 +23,8 @@ export default {
   components: {
     Header,
     Hero,
-    Menu,
+    Foodmenu,
+    Drinkmenu,
     Maps,
     Footer
   },
