@@ -1,5 +1,6 @@
 $primary-color: #DFA484;
 $secondary-color: #FFF7F1;
+$tertiary-color: #BCA79D;
 
 $medium-size: 768px;
 
@@ -7,7 +8,8 @@ $medium-size: 768px;
 @import 'components/header.scss';
 @import 'components/hero.scss';
 @import 'components/maps.scss';
-@import 'components/menu.scss';
+@import 'components/drinkmenu.scss';
+@import 'components/foodmenu.scss';
 
 body {
     background: $secondary-color;
@@ -27,7 +29,6 @@ body {
 .centered {
     max-width: 980px;
     display: flex;
-    justify-content: center;
     margin: auto;
     box-sizing: border-box;
 }
