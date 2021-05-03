@@ -3,7 +3,6 @@
     <Header />
     <Hero />
     <Foodmenu />
-    <Drinkmenu />
     <Maps />
     <Footer />
   </div>
@@ -14,7 +13,6 @@
 import Header from '@/components/Header.vue'
 import Hero from '@/components/Hero.vue'
 import Foodmenu from '@/components/Foodmenu.vue'
-import Drinkmenu from '@/components/Drinkmenu.vue'
 import Maps from '@/components/Maps.vue'
 import Footer from '@/components/Footer.vue'
 
@@ -24,7 +22,6 @@ export default {
     Header,
     Hero,
     Foodmenu,
-    Drinkmenu,
     Maps,
     Footer
   },
