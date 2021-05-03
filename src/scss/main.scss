@@ -11,11 +11,14 @@ $medium-size: 768px;
 @import 'components/drinkmenu.scss';
 @import 'components/foodmenu.scss';
 
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
 body {
     background: $secondary-color;
     margin: 0;
     overflow-x: hidden;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .fullwidth {
@@ -28,7 +31,6 @@ body {
 
 .centered {
     max-width: 980px;
-    display: flex;
     margin: auto;
     box-sizing: border-box;
 }
