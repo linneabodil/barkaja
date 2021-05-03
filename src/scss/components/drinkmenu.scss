@@ -20,12 +20,13 @@
     &__list {
         display: grid;
         grid-template-columns: repeat(1, 1fr);
-        grid-gap: 3rem;
+        grid-gap: 1rem;
         padding: 2rem;
         margin: 0rem;
 
         @media (min-width: $medium-size) {
             grid-template-columns: repeat(3, 1fr);
+            grid-gap: 3rem;
         }
 
         /*
@@ -53,6 +54,7 @@
             &--description {
                 flex: 0 1 100%;
                 border-top: 1px dotted black;
+                font-style: italic;
             }
         }
     }
