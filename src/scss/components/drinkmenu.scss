@@ -1,0 +1,61 @@
+.drinkmenu {
+    background: #FFF7F1;
+    display: flex;
+    flex-direction: column;
+    padding: 3rem 0;
+
+    @media (min-width: $medium-size) {
+        flex-direction: column;
+    }
+
+    h2 {
+        text-align: center;
+        font-size: 1.8rem;
+    }
+
+    /*
+        List container
+    */
+    
+    &__list {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 1rem;
+        padding: 2rem;
+        margin: 0rem;
+
+        @media (min-width: $medium-size) {
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 3rem;
+        }
+
+        /*
+            Single items
+        */
+
+        .menu__item {
+            margin: 1rem 0;
+            display: flex;
+            flex-wrap: wrap;
+            vertical-align: bottom;
+            width: 100%;
+    
+            &--name {
+                flex: 0 1 auto;
+                font-weight: bold;
+                margin-right: 1rem;
+            }
+            &--type {
+                flex: 1 0 auto;
+            }
+            &--price {
+                flex: 0 1 auto;
+            }
+            &--description {
+                flex: 0 1 100%;
+                border-top: 1px dotted black;
+                font-style: italic;
+            }
+        }
+    }
+}

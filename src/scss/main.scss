@@ -1,4 +1,6 @@
-$primary-color: #6c7082;
+$primary-color: #DFA484;
+$secondary-color: #FFF7F1;
+$tertiary-color: #BCA79D;
 
 $medium-size: 768px;
 
@@ -6,26 +8,29 @@ $medium-size: 768px;
 @import 'components/header.scss';
 @import 'components/hero.scss';
 @import 'components/maps.scss';
-@import 'components/menu.scss';
+@import 'components/drinkmenu.scss';
+@import 'components/foodmenu.scss';
+
+/* Google fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
 
 body {
-    background: url("https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80");
+    background: $secondary-color;
     margin: 0;
     overflow-x: hidden;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Open Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .fullwidth {
     width: 100vw;
+    min-width: 320px;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 .centered {
-    max-width: 1020px;
-    display: flex;
-    justify-content: center;
+    max-width: 980px;
     margin: auto;
     box-sizing: border-box;
 }
