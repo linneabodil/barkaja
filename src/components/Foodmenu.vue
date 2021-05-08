@@ -5,7 +5,7 @@
         <li v-for="food in foods" :key="food.name" class="menu__item">
             <div class="menu__item--name">{{ food.name }}</div>
             <div class="dots"></div>
-            <div class="menu__item--price">{{ food.price }}</div>
+            <div class="menu__item--price">{{ food.price }}:-</div>
             <!-- <p class="menu__item--description">{{ food.description }}</p> -->
         </li>
     </ul>
@@ -15,7 +15,7 @@
         <li v-for="pizza in pizzas" :key="pizza.name" class="menu__item">
             <div class="menu__item--name">{{ pizza.name }}</div>
             <div class="dots"></div>
-            <div class="menu__item--price">{{ pizza.price }}</div>
+            <div class="menu__item--price">{{ pizza.price }}:-</div>
             <!-- <p class="menu__item--description">{{ pizza.description }}</p> -->
         </li>
     </ul>
@@ -25,7 +25,7 @@
         <li v-for="dessert in desserts" :key="dessert.name" class="menu__item">
             <div class="menu__item--name">{{ dessert.name }}</div>
             <div class="dots"></div>
-            <div class="menu__item--price">{{ dessert.price }}</div>
+            <div class="menu__item--price">{{ dessert.price }}:-</div>
             <!-- <p class="menu__item--description">{{ dessert.description }}</p> -->
         </li>
     </ul>
