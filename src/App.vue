@@ -27,6 +27,9 @@ export default {
   },
   beforeMount() {
     this.$store.dispatch('getMenu');
+  },
+  mounted() {
+    this.$store.dispatch('getMenu');
   }
 }
 
