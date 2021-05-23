@@ -7,7 +7,7 @@
         </li>
         <li class="footer__list--item">
             <h3>KONTAKT</h3>
-            <p>0722-443334</p>
+            <p>072-244 33 34</p>
         </li>
     </ul>
   </div>
