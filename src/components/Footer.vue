@@ -7,8 +7,7 @@
         </li>
         <li class="footer__list--item">
             <h3>KONTAKT</h3>
-            <p>0707-123456</p>
-            <p>info@barkaja.se</p>
+            <p>0722-443334</p>
         </li>
     </ul>
   </div>
