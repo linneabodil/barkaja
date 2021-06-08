@@ -2,7 +2,7 @@
   <div id="app">
     <Header />
     <Hero />
-    <Foodmenu />
+    <Foodmenu v-if="loaded" />
     <Maps />
     <Footer />
   </div>
@@ -17,6 +17,11 @@ import Maps from '@/components/Maps.vue'
 import Footer from '@/components/Footer.vue'
 
 export default {
+  data() {
+    return {
+      loaded: false
+    }
+  },
   name: 'App',
   components: {
     Header,
@@ -29,7 +34,7 @@ export default {
     this.$store.dispatch('getMenu');
   },
   mounted() {
-    this.$store.dispatch('getMenu');
+    this.loaded = true
   }
 }
 
