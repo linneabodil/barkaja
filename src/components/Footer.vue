@@ -3,12 +3,11 @@
       <ul class="footer__list centered">
         <li class="footer__list--item">
             <h3>ÖPPETTIDER</h3>
-            <p>mån-sön: 15-20</p>
+            <p>mån-sön: 15-22</p>
         </li>
         <li class="footer__list--item">
             <h3>KONTAKT</h3>
-            <p>0707-123456</p>
-            <p>info@barkaja.se</p>
+            <p>072-244 33 34</p>
         </li>
     </ul>
   </div>
